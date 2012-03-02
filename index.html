@@ -1,0 +1,169 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8" />
+    <title>密码泄漏问题与Web安全</title>
+    
+    <meta name="description" content="What The Heck Is Responsive Web Design? - an impress.js presentation">
+    <meta name="author" content="John Polacek" />
+
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+	<div class="background"></div>
+	
+	<div id="hint">an <a href="http://bartaz.github.com/impress.js/">impress.js</a> presentation by Zhao Wei <a href="http://www.knownsec.com">knownsec</a>
+		- use the spacebar or arrow keys to navigate</div>
+	
+	<div id="impress" class="impress-not-supported">
+		
+		<div id="title" class="step" data-x="700" data-y="00" data-scale="4.5">
+			<div class="big bold">
+				<div id="title-text2">今天改密码了吗？</div>
+				<div id="title-text1">最近改密码改到手软...</div>
+				<div id="title-text1">怎么总泄漏？</div>
+			</div>
+		</div>
+	
+		<div id="question" class="step" data-x="-1700" data-y="900" data-scale="1">
+			<img src="img/responsive_web_design.png" height="350" />
+			<div class="big bold">
+				<div id="title-text1">先了解一下大家:)</div>
+			</div>
+		</div>
+	
+		<div id="question1" class="step" data-x="-1700" data-y="1300" data-scale="1">
+			<div class="big bold">
+				<span id="combo-or">第一问</span>
+				<div id="title-text1">有碰到过黑客吗？</div>
+				<div id="why-quote">当时是什么样的情况？</div>
+			</div>
+		</div>
+		
+		<div id="question2" class="step" data-x="-1700" data-y="1690" data-scale="1">
+			<div class="big bold">
+				<span id="combo-or">第二问</span>
+				<div id="title-text1">有安全防护吗？</div>
+				<div id="why-quote">具体做了哪里安全措施？</div>
+			</div>
+		</div>
+		<div id="question3" class="step" data-x="-1700" data-y="2080" data-scale="1">
+			<div class="big bold">
+				<span id="combo-or">第三问</span>
+				<div id="title-text1">相关词汇？</div>
+				<div id="why-quote">SQL注入,XSS,EXP,0day,Rootkit</div>
+			</div>
+		</div>
+		<div id="who" class="step" data-x="-660" data-y="900" data-scale="1">
+			<div class="big bold title">内容</div>
+		</div>
+		
+
+		<div id="Part1" class="step" data-x="-660" data-y="1300" data-scale="1">
+			<div class="big bold">
+				<span id="combo-or">第一部分</span>
+				<div id="title-text1">自我介绍</div>
+				<div id="why-quote">经历，做什么的，客户</div>
+			</div>
+		</div>
+		<div id="Part2" class="step" data-x="-660" data-y="1690" data-scale="1">
+			<div class="big bold">
+				<span id="combo-or">第二部分</span>
+				<div id="title-text1">安全概览</div>
+				<div id="why-quote">国内国外的情况，很有趣</div>
+			</div>
+		</div>
+		<div id="Part3" class="step" data-x="-660" data-y="2080" data-scale="1">
+			<div class="big bold">
+				<span id="combo-or">第三部分</span>
+				<div id="title-text1">密码泄漏事件</div>
+				<div id="why-quote">回顾事件，演示，如何保护?</div>
+			</div>
+		</div>
+		<div id="Part4" class="step" data-x="-660" data-y="2470" data-scale="1">
+			<div class="big bold">
+				<span id="combo-or">第四部分</span>
+				<div id="title-text1">讨论:)</div>
+				<div id="why-quote"></div>
+			</div>
+		</div>
+		<div id="Whysec" class="step" data-x="400" data-y="900" data-scale="1.5">
+			<div class="big bold">
+				<span id="combo-or">我们的梦想</span>
+				<div id="title-text1">更安全的互联网</div>
+				<div id="why-quote">安全是互联网发展的基石</div>
+			</div>
+		</div>
+		<div id="why" class="step" data-x="1520" data-y="900" data-scale="1">
+			<div class="big bold title">原因</div>
+		</div>
+		
+		<div id="why-quote1" class="step" data-x="1520" data-y="1150" data-scale="1">
+			<blockquote>
+			The cyber world is a dangerous place.
+			</blockquote>
+		</div>
+		<div id="why-quote2" class="step" data-x="1520" data-y="1200" data-scale="1">
+			<blockquote>
+			Not because of the people who are evil;
+			</blockquote>
+		</div>
+		<div id="why-quote3" class="step" data-x="1520" data-y="1320" data-scale="1">
+			<blockquote>
+			But because of the people who don't do anything about it.
+			<span class="author">- Albert Einstein, Best hacker ever:)</span>
+			</blockquote>
+		</div>
+		<div id="Realhack" class="step" data-x="1520" data-y="1650" data-scale="1">
+			<div id="title-text1">真正的Hack精神</div>
+		</div>
+		
+		<div id="Real-hack-quote" class="step" data-x="1520" data-y="1900" data-scale="1">
+			<blockquote>
+			"The word “hacker” has an unfairly negative connotation from being portrayed in the media as people who break into computers. "
+		</div>
+		
+		
+		<div id="Real-hack-quote2" class="step" data-x="1520" data-y="2300" data-scale="1">
+			<blockquote>
+			"In reality, hacking just means building something quickly or testing the boundaries of what can be done. Like most things, it can be used for good or bad, but the vast majority of hackers I’ve met tend to be idealistic people who want to have a positive impact on the world."
+			<span class="author">- Mark, Facebook</span></blockquote>
+		</div>
+
+		<div id="level1" class="step" data-x="400" data-y="1200" data-scale="1">
+			<div class="big light" id="combo-or">第一层 Using security tools</div>
+
+		</div>
+		<div id="level2" class="step" data-x="400" data-y="1300" data-scale="1">
+			<div class="big light" id="combo-or">第二层 Knowing system very well and using lots of tools</div>
+		</div>
+		<div id="level3" class="step" data-x="400" data-y="1400" data-scale="1">
+			<div class="big light" id="combo-or">第三层 Developing own tools and exps</div>
+
+		</div>
+		<div id="level4" class="step" data-x="400" data-y="1500" data-scale="1">
+			<div class="big light" id="combo-or">第四层Finding vulns and exploit them</div>
+		</div>
+		<div id="level5" class="step" data-x="400" data-y="1600" data-scale="1">
+			<div class="big light" id="combo-or">第五层New hacking techs and exploiting methods</div>
+		</div>
+		<div id="level6" class="step" data-x="400" data-y="1700" data-scale="1">
+			<div class="big light" id="combo-or">第六层 Operating system security model</div>
+		</div>
+		<div id="level7" class="step" data-x="400" data-y="1800" data-scale="1">
+			<div class="big light" id="combo-or">第七层 Using tech change the world to a better place:)</div>
+		</div>
+		<div id="screens" class="step" data-x="400" data-y="2300" data-scale="1">
+			<div class="big light" id="why-sml">Sharing and Openness</div>
+			<div class="big bold" id="why-one-site">Hacker Ethics</div>
+			<div class="big bold" id="why-every">For a Better World</div>
+		</div>
+	</div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/impress.js"></script>
+
+</body>
+</html>
+<html lang="en">
